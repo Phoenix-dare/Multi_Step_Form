@@ -110,8 +110,8 @@ const Steps = ({ currentStep }) => {
             />
           </g>
         </svg>
-        <div className=" relative z-5 flex flex-col items-center justify-start py-8  font-ubuntu-regular">
-          <div className="flex flex-row w-3/4 items-center justify-evenly">
+        <div className=" relative z-5 flex flex-col w-full  py-8  font-ubuntu-regular">
+          <div className="flex flex-row w-full items-center justify-evenly">
             <div
               className={`rounded-full border-2 w-10 h-10 text-center text-light-gray p-1 font-semibold ${
                 currentStep === 1 ? "bg-magnolia text-marine-blue" : "bg-none"
@@ -128,7 +128,7 @@ const Steps = ({ currentStep }) => {
               </span>
             </div>
           </div>
-          <div className="flex flex-row w-3/4 items-center justify-evenly">
+          <div className="flex flex-row w-full items-center justify-evenly">
             <div
               className={`rounded-full border-2 w-10 h-10 text-light-gray p-1 font-semibold ${
                 currentStep === 2 ? "bg-magnolia text-marine-blue" : "bg-none"
@@ -145,7 +145,7 @@ const Steps = ({ currentStep }) => {
               </span>
             </div>
           </div>
-          <div className="flex flex-row w-3/4 items-center justify-evenly">
+          <div className="flex flex-row w-full items-center justify-evenly">
             <div
               className={`rounded-full border-2 w-10 h-10 text-light-gray p-1 font-semibold ${
                 currentStep === 3 ? "bg-magnolia text-marine-blue" : "bg-none"
@@ -163,7 +163,7 @@ const Steps = ({ currentStep }) => {
               </span>
             </div>
           </div>
-          <div className="flex flex-row w-3/4 items-center justify-evenly">
+          <div className="flex flex-row w-full items-center justify-evenly">
             <div
               className={`rounded-full border-2 w-10 h-10 text-light-gray p-1 font-semibold ${
                 currentStep === 4 ? "bg-magnolia text-marine-blue" : "bg-none"

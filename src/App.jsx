@@ -38,10 +38,10 @@ function App() {
 
   return (
     <FormDataProvider>
-      <div className="relative flex  flex-col md:flex-row items-center md:justify-center h-full  bg-magnolia md:bg-white md:p-4 md:h-fit md:w-fit rounded-xl">
+      <main className="relative flex  flex-col md:flex-row items-center md:justify-center h-full  bg-magnolia md:bg-white md:p-4 md:h-fit md:w-fit rounded-xl">
         <Steps currentStep={currentStep}/>
         {renderStep()}
-      </div>
+      </main>
     </FormDataProvider>
   );
 }
